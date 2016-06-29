@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+import React from 'react';
+
+const ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} = () => <${3:div}>${2}</${3:div}>
+]]></content>
+    <tabTrigger>sfc</tabTrigger>
+    <scope>source.js</scope>
+    <description>React: stateless functional component</description>
+</snippet>
